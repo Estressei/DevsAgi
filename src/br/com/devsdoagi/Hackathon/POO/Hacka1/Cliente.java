@@ -1,4 +1,4 @@
-package br.com.devsdoagi.Hackathon.POO;
+package br.com.devsdoagi.Hackathon.POO.Hacka1;
 
 public class Cliente {
     private String nome;
@@ -18,10 +18,12 @@ public class Cliente {
     }
 
     public String getCpf() {
+
         return cpf;
     }
 
     public void setCpf(String cpf) {
+
         this.cpf = cpf;
     }
 }

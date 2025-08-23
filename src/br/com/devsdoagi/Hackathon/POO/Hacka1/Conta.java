@@ -1,6 +1,8 @@
-package br.com.devsdoagi.Hackathon.POO;
+package br.com.devsdoagi.Hackathon.POO.Hacka1;
 
-abstract class Conta {
+import br.com.devsdoagi.Hackathon.POO.Hacka2.OperacoesProduto;
+
+abstract class Conta implements OperacoesBancarias {
     private int numeroConta;
     private double saldo;
     private String clienteTitular;
@@ -12,19 +14,25 @@ abstract class Conta {
     }
 
     public double getSaldo() {
+
         return saldo;
     }
 
     public void setSaldo(double saldo) {
+
         this.saldo = saldo;
     }
 
-    public double depositar(double valor){
-        return saldo += valor;
+    public void depositar(double valor) {
+        saldo += valor;
     }
 
-    public double sacar(double valor){
-        return saldo -= valor;
+    public void sacar(double valor) {
+        if (valor <= saldo) {
+            saldo -= valor;
+        } else {
+            System.out.println("Saldo insuficiente!");
+        }
     }
 
     public abstract void aplicarJuros();

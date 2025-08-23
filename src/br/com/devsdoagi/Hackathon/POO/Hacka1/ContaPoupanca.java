@@ -1,4 +1,4 @@
-package br.com.devsdoagi.Hackathon.POO;
+package br.com.devsdoagi.Hackathon.POO.Hacka1;
 
 public class ContaPoupanca extends Conta{
     public ContaPoupanca(int numeroConta, double saldo, String clienteTitular){

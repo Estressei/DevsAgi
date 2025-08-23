@@ -1,4 +1,4 @@
-package br.com.devsdoagi.Hackathon.POO;
+package br.com.devsdoagi.Hackathon.POO.Hacka1;
 
 public class Main {
     public static void main(String[] args) {
