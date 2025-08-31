@@ -1,6 +1,14 @@
 package br.com.devsdoagi.TratamentoExcecoes;
-
 import java.util.Scanner;
+/*
+Crie um programa que armazene os saldos de 10 contas bancárias em um vetor.
+ O usuário deve poder buscar o saldo de uma conta pelo índice do vetor.
+Se o usuário inserir um índice inválido, capture e trate ArrayIndexOutOfBoundsException.
+    Exemplo de Entrada:
+    Digite o índice da conta: 12
+    Saída Esperada:
+    Erro: Conta não encontrada!
+ */
 
 public class Exerc1 {
     public static void main(String[] args) {
