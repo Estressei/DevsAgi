@@ -1,4 +1,4 @@
-package br.com.devsdoagi.Hackathon.Colecoes;
+package br.com.devsdoagi.Hackathon.Colecoes.BancoDigital;
 
 import java.util.ArrayList;
 import java.util.List;
